@@ -40,4 +40,8 @@ nav {
     background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat
 }
 
-
+.section-about-block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
+}
