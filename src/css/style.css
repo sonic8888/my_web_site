@@ -36,12 +36,20 @@ nav {
 }
 
 .section-about {
+
     height: 640px;
-    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat
+    background: url(../img/01-Картинка-фона.jpg) ;
+    background-position: center;
+    background-size: cover;
+ 
+
 }
 
 .section-about-block {
     width: 420px;
     height: 190px;
     background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
+    position: relative;
+    left: 730px;
+    top: 349px;
 }
