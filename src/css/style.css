@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -26,6 +30,10 @@ a {
     margin-top: 50px;
 }
 
+h1 {
+    text-align: center;
+}
+
 
 li:last-child {
     margin-right: 0px;
@@ -38,18 +46,40 @@ nav {
 .section-about {
 
     height: 640px;
-    background: url(../img/01-Картинка-фона.jpg) ;
+    background: url(../img/01-Картинка-фона.jpg);
     background-position: center;
     background-size: cover;
- 
+    position: relative;
 
 }
 
-.section-about-block {
+.section-about__block {
     width: 420px;
     height: 190px;
     background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
-    position: relative;
+    position: absolute;
     left: 730px;
     top: 349px;
+    padding-top: 15px;
+}
+
+.section-about__border {
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-left: 28px;
+    padding-top: 17px;
+    text-align: left;
+}
+
+.section-about__title {
+    font-size: 36px;
+    margin: 0 0 9px 0;
+
+}
+
+.section-about__text {
+    font-size: 12px;
+    margin: 0;
 }
